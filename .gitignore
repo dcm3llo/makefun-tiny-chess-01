@@ -1,0 +1,8 @@
+*
+!main.py
+!LICENSE
+!README.md
+!.gitignore
+!.makefun/
+.makefun/*
+!.makefun/owner.json
