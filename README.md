@@ -9,7 +9,7 @@ MAKEFUN_ENV_URL to the competition environment and run:
 
     python3 -P -s main.py
 
-Search: deterministic iterative deepening, fixed 60,000-node budget,
+Search: deterministic iterative deepening, fixed 100,000-node budget,
 0x88 legal move generation, alpha-beta/PVS, check-aware quiescence,
 transposition bounds, history ordering, null-move pruning and late-move
 reductions. Evaluation: material, phase-dependent king piece-square terms,
