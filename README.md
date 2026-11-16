@@ -1,5 +1,9 @@
 # Tiny Sentinel
 
+[![make.fun](https://make.fun/badge/tiny-chess-01.svg)](https://make.fun/bounty/tiny-chess-01)
+[![rank](https://make.fun/badge/tiny-chess-01/dcm3llo/makefun-tiny-chess-01/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard)
+[![reward](https://make.fun/badge/tiny-chess-01/dcm3llo/makefun-tiny-chess-01/reward.svg)](https://make.fun/bounty/tiny-chess-01)
+
 Original MIT-licensed, standard-library-only Python 3.13 chess engine for
 make.fun tiny-chess-01. Not derived from Sunfish or any other chess engine.
 
