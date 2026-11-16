@@ -9,13 +9,17 @@ MAKEFUN_ENV_URL to the competition environment and run:
 
     python3 -P -s main.py
 
-Search: deterministic iterative deepening, fixed 100,000-node budget,
+Search: deterministic iterative deepening, fixed 45,000-node budget,
 0x88 legal move generation, alpha-beta/PVS, check-aware quiescence,
 transposition bounds, history ordering, null-move pruning and late-move
 reductions. Evaluation: material, phase-dependent king piece-square terms,
 piece activity, bishop pair, pawn structure, passed pawns and open rook files.
 Supports castling, en passant and all four promotions. Environment legal
-moves constrain the root. Search accounts for game history and fifty moves.
+moves constrain the root. Repetition counts use legal en passant identity;
+checkmate precedes draw rules, and quiescence recognizes stalemate. Full-search
+TT scores are not used as quiescence scores; TT bounds include the halfmove
+clock. Null-move pruning excludes principal-variation windows, and late-move
+reductions do not reduce checking moves.
 No clock-based decisions, model calls, external dependencies or network
 access beyond the supplied chess environment.
 
